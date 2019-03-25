@@ -6,6 +6,7 @@
 <head>
 		<meta charset="utf-8">
 		<title>登录界面</title>
+		
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/font-awesome.min.css" />
