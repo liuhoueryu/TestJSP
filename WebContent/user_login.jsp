@@ -20,7 +20,7 @@
 						<div class="login_title">
 							登录
 						</div>
-						<form action=user_login_handle.jsp method="post">
+						<form action=UserLoginServlet method="post">
 							
 							<div class="form_text_ipt">
 								<input name="username" type="text" placeholder="用户名">
