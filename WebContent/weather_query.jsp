@@ -35,7 +35,7 @@ div {
 	}
 %>
 	<%
-		List<Weather> list = (List<Weather>) request.getAttribute("list");
+		List<Weather> list = (List<Weather>)request.getAttribute("list");
 		String province = (String) request.getAttribute("province");
 		String city = (String) request.getAttribute("city");
 	%>

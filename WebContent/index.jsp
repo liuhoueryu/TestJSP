@@ -28,7 +28,7 @@
 
 <%
 	//从session属性范围中取出用户名，积分,头像
-	/* String username = (String)session.getAttribute("username");
+	/* String us ername = (String)session.getAttribute("username");
 	int score = (Integer)session.getAttribute("score");
 	String photo = (String)session.getAttribute("photo"); */
 	

@@ -9,6 +9,7 @@ public class Weather implements Serializable{
 	private String temperature;
 	private String rainfall;
 	private String date;
+	
 	public String getProvince() {
 		return province;
 	}
