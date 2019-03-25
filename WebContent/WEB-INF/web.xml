@@ -18,7 +18,6 @@
     <servlet-name>TestServlet</servlet-name>
     <url-pattern>/TestServlet</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>UserLoginServlet</servlet-name>
     <servlet-class>com.neuedu.servlet.UserLoginServlet</servlet-class>
@@ -27,7 +26,6 @@
     <servlet-name>UserLoginServlet</servlet-name>
     <url-pattern>/UserLoginServlet</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>UserLogoutServlet</servlet-name>
     <servlet-class>com.neuedu.servlet.UserLogoutServlet</servlet-class>
@@ -36,20 +34,18 @@
     <servlet-name>UserLogoutServlet</servlet-name>
     <url-pattern>/UserLogoutServlet</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>UserRegisterServlet</servlet-name>
     <servlet-class>com.neuedu.servlet.UserRegisterServlet</servlet-class>
     <init-param>
-    	<param-name>registerScore</param-name>
-		<param-value>20</param-value>
+      <param-name>registerScore</param-name>
+      <param-value>20</param-value>
     </init-param>
   </servlet>
   <servlet-mapping>
     <servlet-name>UserRegisterServlet</servlet-name>
     <url-pattern>/UserRegisterServlet</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>UserQueryServlet</servlet-name>
     <servlet-class>com.neuedu.servlet.UserQueryServlet</servlet-class>
@@ -58,10 +54,18 @@
     <servlet-name>UserQueryServlet</servlet-name>
     <url-pattern>/UserQueryServlet</url-pattern>
   </servlet-mapping>
-  
   <context-param>
-  	<param-name>charSet</param-name>
-  	<param-value>utf-8</param-value>
+    <param-name>charSet</param-name>
+    <param-value>utf-8</param-value>
   </context-param>
-  
+  <servlet>
+    <description></description>
+    <display-name>WeatherQueryServlet</display-name>
+    <servlet-name>WeatherQueryServlet</servlet-name>
+    <servlet-class>com.neuedu.servlet.WeatherQueryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WeatherQueryServlet</servlet-name>
+    <url-pattern>/WeatherQueryServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

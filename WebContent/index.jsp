@@ -42,7 +42,7 @@
 <center><img src="image/photo/<%=user.getPhoto()%>">，欢迎【<%=user.getUsername() %>】光临主页，当前积分为【<%=user.getScore() %>】分，您是第【<%=onlineCount %>】位访客
 
 <br/>
-<a href="weather_query.jsp">天气查询</a>
+<a href="WeatherQueryServlet">天气查询</a>
 <br/>
 <a href="UserLogoutServlet">注销</a>
 </center>
